@@ -1,0 +1,97 @@
+@import url(./bootstrap.min.css);
+@import url(./custom.css);
+
+.carousel-item {
+    height: 500px;
+}
+
+.img-carousel {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-caption {
+    padding-bottom: 10.25rem;
+}
+
+.btn {
+    font-family: 'Oranienbaum', serif;
+}
+
+a {
+    font-family: 'Oranienbaum', serif;
+}
+
+h1 {
+    font-family: 'Oranienbaum', serif;
+    text-shadow: #000 2px 3px 2px;
+}
+
+h2 {
+    font-family: 'Oranienbaum', serif;
+    color: #3B4961;
+    padding-top: 3rem;
+}
+
+h4 {
+    font-family: 'Oranienbaum', serif;
+    color: #3B4961;
+}
+
+.p1 {
+    font-size: 20px;
+    font-family: 'Oranienbaum', serif;
+    text-shadow: #000 2px 3px 2px;
+}
+
+.p2 {
+    font-family: 'Oranienbaum', serif;
+    color: #7295BA;
+}
+
+.nav-link {
+    color: #3B4961 !important;
+}
+
+.nav-link::after {
+    content: "|";
+    padding-left: 10px;
+}
+
+.nav-link:hover {
+    border-bottom: solid 1px #7295BA;
+}
+
+.last-item::after {
+    content: "";
+}
+
+footer {
+    padding: 2.5rem 0;
+    color: #7295BA;
+    text-align: center;
+    background-color: #3B4961;
+    border-top: .05rem solid #3B4961;
+}
+
+.social {
+    color: #7295BA;
+}
+
+.social:hover {
+    color: #EDEDDA;
+}
+
+.back {
+    text-decoration: none;
+    color: #7295BA;
+    font-family: 'Oranienbaum', serif;
+}
+
+.back:hover {
+    color:  #EDEDDA;
+}
