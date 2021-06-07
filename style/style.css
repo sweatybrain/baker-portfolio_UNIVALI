@@ -100,3 +100,15 @@ footer {
 .back:hover {
     color:  #EDEDDA;
 }
+
+.btn-menu:hover {
+    color: #7295BA !important;
+    background-color: #EDEDDA !important;
+    border-color: #7295BA !important;
+}
+
+.btn-club:hover {
+    color: #7295BA !important;
+    background-color: #EDEDDA !important;
+    border-color: #7295BA !important;
+}
