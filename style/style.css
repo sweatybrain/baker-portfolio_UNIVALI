@@ -112,3 +112,7 @@ footer {
     background-color: #EDEDDA !important;
     border-color: #7295BA !important;
 }
+
+.modal-footer {
+    justify-content: center;
+}

@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="./style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oranienbaum&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./script/main.js">
     <title>O Padeiro de Sicília</title>
 </head>
 
@@ -36,12 +35,14 @@
                 <li><a href="#contact" class="nav-link px-2 link-dark last-item">Contato</a></li>
             </ul>
 
+
+            <!-- Button Menu -->
             <div class="col-md-3 text-end">
                 <button type="button" class="btn btn-outline-primary me-2 btn-menu" data-bs-toggle="modal"
                     data-bs-target="#exampleModal"
                     style="background-color: #7295BA; border-color: #7295BA; color: #EDEDDA">Cardápio</button>
 
-                <!-- Modal -->
+                <!-- Modal Menu-->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                     aria-hidden="true">
                     <div class="modal-dialog">
@@ -53,24 +54,159 @@
                             </div>
                             <div class="modal-body">
                                 <div class="col-md-12">
-                                    <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                                      <div class="col p-4 d-flex flex-column position-static">
-                                        <h3 class="mb-0">Featured post</h3>
-                                        <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                                      </div>
-                                      <div class="col-auto d-none d-lg-block">
-                                        <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                              
-                                      </div>
+                                    <div
+                                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250">
+                                        <div class="col p-4 d-flex flex-column">
+                                            <h3 class="mb-0">Rolinho de canela</h3>
+                                            <br>
+                                            <p class="card-text mb-auto">Rolinhos de pão doce polvilhados com açucar e
+                                                canela, ótimo num chá da tarde</p>
+                                            <button type="button" class="btn btn-primary btn-club"
+                                                style="background-color: #7295BA; border-color: #7295BA; color: #EDEDDA">Faça
+                                                sua encomenda aqui!</button>
+                                        </div>
+                                        <div class="col-auto d-lg-block">
+                                            <img class="bd-placeholder-img" width="200" height="272"
+                                                xmlns="http://www.w3.org/2000/svg" src="./assets/cardapio-bread-1.jpeg"
+                                                aria-label="Placeholder: Thumbnail" focusable="false">
+                                            <title>Placeholder</title>
+                                            <rect width="100%" height="100%"></rect>
+                                        </div>
                                     </div>
-                                  </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div
+                                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 ">
+                                        <div class="col p-4 d-flex flex-column">
+                                            <h3 class="mb-0">Focaccia</h3>
+                                            <br>
+                                            <p class="card-text mb-auto">Focaccia de alecrim com sal grosso, deliciosas
+                                                prum rendez-vous com amigos</p>
+                                            <button type="button" class="btn btn-primary btn-club"
+                                                style="background-color: #7295BA; border-color: #7295BA; color: #EDEDDA">Faça
+                                                sua encomenda aqui!</button>
+                                        </div>
+                                        <div class="col-auto d-lg-block">
+                                            <img class="bd-placeholder-img" width="200" height="250"
+                                                xmlns="http://www.w3.org/2000/svg" src="./assets/cardapio-bread-2.jpg"
+                                                aria-label="Placeholder: Thumbnail" focusable="false">
+                                            <title>Placeholder</title>
+                                            <rect width="100%" height="100%"></rect>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div
+                                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 ">
+                                        <div class="col p-4 d-flex flex-column">
+                                            <h3 class="mb-0">Croissant</h3>
+                                            <br>
+                                            <p class="card-text mb-auto">massa folheada recheada de queijo ou chocolate
+                                            </p>
+                                            <button type="button" class="btn btn-primary btn-club"
+                                                style="background-color: #7295BA; border-color: #7295BA; color: #EDEDDA">Faça
+                                                sua encomenda aqui!</button>
+                                        </div>
+                                        <div class="col-auto d-lg-block">
+                                            <img class="bd-placeholder-img" width="200" height="250"
+                                                xmlns="http://www.w3.org/2000/svg" src="./assets/cardapio-bread-3.jpg"
+                                                aria-label="Placeholder: Thumbnail" focusable="false">
+                                            <title>Placeholder</title>
+                                            <rect width="100%" height="100%"></rect>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div
+                                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 ">
+                                        <div class="col p-4 d-flex flex-column">
+                                            <h3 class="mb-0">Pão italiano recheado</h3>
+                                            <br>
+                                            <p class="card-text mb-auto">pão italiano recheado de ovos, presunto, queijo
+                                                e tomate</p>
+                                            <button type="button" class="btn btn-primary btn-club"
+                                                style="background-color: #7295BA; border-color: #7295BA; color: #EDEDDA">Faça
+                                                sua encomenda aqui!</button>
+                                        </div>
+                                        <div class="col-auto d-lg-block">
+                                            <img class="bd-placeholder-img" width="200" height="250"
+                                                xmlns="http://www.w3.org/2000/svg" src="./assets/cardapio-bread-4.jpg"
+                                                aria-label="Placeholder: Thumbnail" focusable="false">
+                                            <title>Placeholder</title>
+                                            <rect width="100%" height="100%"></rect>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <div
+                                        class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 ">
+                                        <div class="col p-4 d-flex flex-column">
+                                            <h3 class="mb-0">Cuca recheada</h3>
+                                            <br>
+                                            <p class="card-text mb-auto">massa de brioche recheada de geleia de frutas
+                                                ou chocolate</p>
+                                            <button type="button" class="btn btn-primary btn-club"
+                                                style="background-color: #7295BA; border-color: #7295BA; color: #EDEDDA">Faça
+                                                sua encomenda aqui!</button>
+                                        </div>
+                                        <div class="col-auto d-lg-block">
+                                            <img class="bd-placeholder-img" width="200" height="250"
+                                                xmlns="http://www.w3.org/2000/svg" src="./assets/cardapio-bread-5.jpg"
+                                                aria-label="Placeholder: Thumbnail" focusable="false">
+                                            <title>Placeholder</title>
+                                            <rect width="100%" height="100%"></rect>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <button type="button" class="btn btn-primary btn-club"
-                    style="background-color: #3B4961; border-color: #3B4961; color: #EDEDDA">Clube do Pão</button>
+            <!-- Button Form -->
+            <button type="button" class="btn btn-primary btn-club" data-bs-toggle="modal"
+                data-bs-target="#exampleModal2"
+                style="background-color: #3B4961; border-color: #3B4961; color: #EDEDDA">Clube do Pão</button>
+
+
+            <!-- Modal Form -->
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Faça parte do nosso Clube!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body" style="text-align: center;">
+                            <img src="./assets/clube-do-pao.jpg" style="width:300px">
+                            <br /><br />
+                            <p style="text-align: left;">Assine nosso clube e receba toda semana uma <b>cesta de pães
+                                </b>escolhidos pelo nosso chef.
+                                Ou escolha você uma das cestas temáticas para saborear nos seus findis!</p>
+                            <div class="modal-footer">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                                    <input type="nome" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="seu nome">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="email@email.com" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Um cardápio semanal e
+                                        maiores informações serão enviadas.</label>
+                                </div>
+                                <br />
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal"
+                                    style="background-color: #3B4961; border-color: #3B4961; color: #EDEDDA">Aceito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </header>
     </div>
@@ -428,6 +564,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+
+    <!-- scrip -->
+    <script src="./script/main.js"></script>
+
 </body>
 
 </html>
